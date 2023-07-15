@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Domine&family=Poppins:wght@100;300;400&display=swap');
+
+
+/* browser defaults */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    color: #fff;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+}
+
+.wrapper {
+    width: 100%;
+    height: 100%;
+}
+
+.nav{
+    padding: 3rem 7rem 0 7rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.nav .left{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.nav .left a{
+    text-decoration: none;
+    color:#F1C93B;
+}
+
+
+
+.nav .left h2{
+    font-weight: 700;
+    font-style: italic;
+    
+
+}
+
+.nav .right h2{
+    font-weight: 400;
+    font-size: 48px;
+    font-family: "domine", sans-serif;
+    color:#F1C93B;
+}
+
+.nav .right p{
+    font-size: 17px;
+    font-family: 'Poppins';
+    text-align: center;
+}
+
+.intro{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.intro .hero{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10rem 7rem 0 7rem;
+    transform: translateY(100%);
+     
+}
+
+
+.intro .hero .left-hero{
+    width: 40%;
+
+}
+
+
+.intro .hero .right-hero{
+    gap: 50px;
+    width: 55%;
+}
+
+.intro .hero .right-hero h1{
+    font-size: 4rem;
+    font-weight: 600;
+}
+
+.intro .hero .right-hero h3{
+    font-size: 1.5rem;
+    font-weight: 300;
+    padding-top: 50px ;
+}
+
+.slider {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #18181a;
+    width: 100%;
+    height: 100%;
+    transform: translateY(100%); 
+
+}
