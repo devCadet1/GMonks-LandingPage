@@ -100,12 +100,18 @@ img{
 .intro .hero .right-hero h1{
     font-size: 4rem;
     font-weight: 600;
+    color: grey;
 }
 
 .intro .hero .right-hero h3{
     font-size: 1.5rem;
     font-weight: 300;
     padding-top: 50px ;
+    color: grey;
+}
+
+.intro .hero .right-hero p{
+    color: grey;
 }
 
 .slider {
