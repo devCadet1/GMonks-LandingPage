@@ -27,6 +27,7 @@ img{
 .nav{
     padding: 3rem 7rem 0 7rem;
     display: flex;
+    position: fixed;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
@@ -118,7 +119,7 @@ img{
     position: fixed;
     top: 0;
     left: 0;
-    background-color: #18181a;
+    background-color: #000;
     width: 100%;
     height: 100%;
     transform: translateY(100%); 
